@@ -12,9 +12,9 @@ console.log('service check',title,img,price)
             {title}
         
           </h2>
-          <p>Price:{price}</p>
+          <p className="text-xl text-orange-500 font-bold " >Price:${price}</p>
           <div className="card-actions">
-          <button className="btn btn-success">Buy Now</button>
+          <button className="btn btn-outline btn-accent">Buy Now</button>
           </div>
         </div>
       </div>

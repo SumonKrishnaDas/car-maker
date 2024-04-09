@@ -23,18 +23,22 @@ fetch('server.json')
 
 
     return (
-        <div className='text-center' >   
-            <h1 className='text-3xl text-orange-500'>our service</h1>
-            <h1 className='text-3xl' >Our Service Area</h1>
-            <p>the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+        <div className='text-center p-8 ' >  
+
+            <div className="p-10 space-y-4">
+
+            <h1 className='text-3xl text-orange-500'>Our service</h1>
+            <h1 className='text-3xl' >Browse Our Products</h1>
+            <p>The majority have suffered alteration in some form, by injected humour, or randomised <br />words which don't look even slightly believable. </p>   
+            </div>
         
         
-        <div>
-            <p> {services.length}</p>
+      
+          
          
 
       
-    <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-1 sm:items-center gap-24 ">
+    <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-1 sm:items-center gap-10 mt-8 ">
 
     {
               
@@ -53,7 +57,7 @@ fetch('server.json')
              
              </div>
         
-        </div>
+       
     );
 };
 
